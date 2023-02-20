@@ -1,0 +1,30 @@
+@import "../../styles/partials/variables";
+
+.tags {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: $text-color;
+  font-family: $font-normal;
+  font-size: 16px;
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  &__list {
+    list-style: none;
+    width: 380px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+
+    li {
+      background-color: $tag-color;
+      padding: 6px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  }
+}
